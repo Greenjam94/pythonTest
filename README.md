@@ -18,6 +18,7 @@ Running either python script, each pulls a generation of data from the pokemon a
 
 ## Push #2
 
+Attempting to follow documentation: https://docs.python.org/3/tutorial/modules.html#packages
 Modify repo to include a common.py file and empty __init__.py files in every directory
 
 ```
