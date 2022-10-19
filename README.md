@@ -42,3 +42,15 @@ Running ThingOne/getAPI.py now will result in an error message like:
 >    from MyProject import common
 > 
 > ModuleNotFoundError: No module named 'MyProject'
+
+## Notes from veender
+From [How to Fix ModuleNotFoundError and ImportError](https://towardsdatascience.com/how-to-fix-modulenotfounderror-and-importerror-248ce5b69b1c):
+
+- A python module is a single file with a .py extension.
+- A python package is a folder that contains at least one python module. For python2, a package requires a __init__.py file
+
+This is not the only way to solve this, I am not a Python expert, etc.
+
+Your PYTHONPATH is important. I wasn't able to get this to work in either my Windows or Ubuntu environments without adding the project filepath to that environment variable. 
+
+Good luck!
